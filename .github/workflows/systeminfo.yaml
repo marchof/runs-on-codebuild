@@ -9,4 +9,4 @@ jobs:
     name: Collect System Info
     runs-on: ubuntu-latest
     steps:
-    - run: mem
+    - run: free
