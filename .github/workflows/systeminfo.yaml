@@ -10,5 +10,5 @@ jobs:
     runs-on:
       - codebuild-github-marchof-runs-on-codebuild-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
-    - run: free
+    - run: sudo apt-get install lshw
     - run: sudo lshw
