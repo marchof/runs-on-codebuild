@@ -6,6 +6,9 @@ Test project to run GitHub actions on AWS CodeBuild
 
 ## 4 vCPUs, 16 GiB memory, GPU-enhanced
 
+* Queue time: 0-180s
+* Provisioning time: 170s
+
     *-display:1
         description: 3D controller
         product: GA102GL [A10G]
@@ -20,6 +23,9 @@ Test project to run GitHub actions on AWS CodeBuild
         resources: iomemory:80-7f iomemory:100-ff irq:10 memory:fd000000-fdffffff memory:800000000-fffffffff memory:1000000000-1001ffffff
 
 ## 32 vCPUs, 256 GiB memory, GPU-enhanced
+
+* Queue time: 4:45h
+* Provisioning time: 180s
 
     *-display:1-4
         description: 3D controller
